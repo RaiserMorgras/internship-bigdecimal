@@ -26,8 +26,7 @@ public class TestCases {
                 "0",
                 "000.000",
                 "-100"};
-        String[] actualResult = input.clone();
-        BigDecimalArraySorter.descSortStringArrayOfBigDecimal(actualResult);
-        assertArrayEquals(expected,actualResult);
+        BigDecimalArraySorter.descSortStringArrayOfBigDecimal(input);
+        assertArrayEquals(expected, input);
     }
 }
